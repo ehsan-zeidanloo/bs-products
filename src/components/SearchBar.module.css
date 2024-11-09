@@ -1,0 +1,10 @@
+.searchBox {
+  text-align: right;
+  margin: 15px auto;
+}
+.searchBox input {
+  width: 80%;
+  background-color: #d6d3d3;
+  font-family: "vazirmatn";
+  color: #ffffff;
+}

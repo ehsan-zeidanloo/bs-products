@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "vazirmatn";
+  src: url("/webfonts/Vazirmatn-Bold.woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+body {
+  font-family: "Vazirmatn", sans-serif;
+  margin: auto;
+  text-align: center;
+  background-color: #f4f8f8;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+

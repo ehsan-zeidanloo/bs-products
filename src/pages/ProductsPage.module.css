@@ -1,0 +1,69 @@
+.container {
+  margin: 10px auto 20px;
+  width: 1140px;
+  padding: 5px;
+}
+.serachbox {
+  width: 100%;
+}
+.header {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px auto;
+}
+.header div{
+  display: flex;
+}
+.header img{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+.header button {
+  font-family: "vazirmatn";
+  padding: 10px 15px;
+  background-color: #55a3f0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 15px;
+}
+
+table thead {
+  height: 70px;
+  background-color: #a6dd40;
+}
+table thead th:first-child {
+  border-top-right-radius: 30px;
+}
+table thead th:last-child {
+  border-top-left-radius: 30px;
+}
+table th,
+table td {
+  padding: 10px; /* تنظیم padding */
+  border: 1px solid transparent; /* مرز شفاف برای جلوگیری از فضای اضافی */
+}
+table tbody {
+  background-color: #fff;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #f2f2f2;
+}
+table tbody td {
+  padding: 10px; /* تنظیم padding */
+  /* مرز را برای ستون‌ها تنظیم کنید */
+  border-bottom: 1px solid #f2f2f2;
+}
